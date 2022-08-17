@@ -11,7 +11,12 @@ module.exports = {
     },
     servers: [
       {
+        url: 'https://ot246-alkemy.herokuapp.com',
+        description: 'Production server',
+      },
+      {
         url: 'http://localhost:3001',
+        description: 'Development server',
       },
     ],
   },
